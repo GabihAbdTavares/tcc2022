@@ -1,0 +1,27 @@
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab3">
+      <ion-icon name="heart-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon name="search-outline"></ion-icon>
+    </ion-tab-button>
+    
+    <ion-tab-button tab="tab4">
+      <ion-tab-button><img src="../../assets/icon/sacola.svg" alt="carrinho" class="sacola"></ion-tab-button>
+    </ion-tab-button>
+    
+    <ion-tab-button tab="tab5">
+      <ion-tab-button><img src="../../assets/icon/perfil.svg" alt="perfil"></ion-tab-button>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+</ion-tabs>
+
+<ion-fab vertical="bottom" horizontal="center" slot="fixed">
+  <ion-fab-button (click)="cabide()">
+    <img src="../../assets/icon/cabide.svg" alt="cabide">
+  </ion-fab-button>
+</ion-fab>
